@@ -1,5 +1,3 @@
-# Local-Model-Setup-and-Hermes-setup
-
 # Running Local LLMs with Ollama & Hermes Agent
 
 > Beginner-friendly workshop notes for setting up a local AI coding
