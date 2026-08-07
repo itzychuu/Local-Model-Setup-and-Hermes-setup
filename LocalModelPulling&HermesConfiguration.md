@@ -24,18 +24,8 @@ This setup is optimized for:
 
 ---
 
-# Step 1 - Remove Previous Models (Optional)
 
-If you previously installed the thinking version:
-
-```powershell
-ollama rm qwen3-hermes
-ollama rm qwen3:4b
-```
-
----
-
-# Step 2 - Pull Qwen3:4B-Instruct
+# Step 1 - Pull Qwen3:4B-Instruct
 
 ```powershell
 ollama pull qwen3:4b-instruct
@@ -45,7 +35,7 @@ Wait until the download completes.
 
 ---
 
-# Step 3 - Verify Installation
+# Step 2 - Verify Installation
 
 ```powershell
 ollama show qwen3:4b-instruct
@@ -70,7 +60,7 @@ num_ctx 65536 (after creating custom model)
 
 ---
 
-# Step 4 - Create a Working Directory
+# Step 3 - Create a Working Directory
 
 Create a folder:
 
@@ -80,7 +70,7 @@ C:\Users\vaish\ollama-models
 
 ---
 
-# Step 5 - Create the Modelfile
+# Step 4 - Create the Modelfile
 
 Inside
 
@@ -137,7 +127,7 @@ Save the file.
 
 ---
 
-# Step 6 - Create the Hermes Model
+# Step 5 - Create the Hermes Model
 
 Open PowerShell.
 
@@ -157,7 +147,7 @@ Wait until creation finishes.
 
 ---
 
-# Step 7 - Verify Custom Model
+# Step 6 - Verify Custom Model
 
 ```powershell
 ollama show qwen3-hermes
@@ -189,7 +179,7 @@ repeat_penalty 1.1
 
 ---
 
-# Step 8 - Configure Hermes
+# Step 7 - Configure Hermes
 
 Run:
 
@@ -218,7 +208,7 @@ Save the configuration.
 
 ---
 
-# Step 9 - Verify Hermes Configuration
+# Step 8 - Verify Hermes Configuration
 
 The `config.yaml` should contain:
 
@@ -234,7 +224,7 @@ model:
 
 ---
 
-# Step 10 - Test Ollama
+# Step 9 - Test Ollama
 
 Run:
 
@@ -270,7 +260,7 @@ or
 
 ---
 
-# Step 11 - Test Hermes
+# Step 10 - Test Hermes
 
 Start Hermes:
 
