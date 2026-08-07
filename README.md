@@ -51,7 +51,7 @@ ollama --version
 Example:
 
 ``` bash
-ollama pull qwen3:8b
+ollama pull qwen3:4b-instruct
 ```
 
 List installed models:
@@ -65,7 +65,7 @@ ollama list
 # Running a Model
 
 ``` bash
-ollama run qwen3:8b
+ollama run qwen3:4b-instruct
 ```
 
 Example prompts:
@@ -91,13 +91,13 @@ ollama list
 Remove a model:
 
 ``` bash
-ollama rm qwen3:8b
+ollama rm qwen3:4b-instruct
 ```
 
 Model information:
 
 ``` bash
-ollama show qwen3:8b
+ollama show qwen3:4b-instruct
 ```
 
 ------------------------------------------------------------------------
@@ -151,7 +151,7 @@ Base URL
 
 Model example
 
-    qwen3:8b
+    qwen3:4b-instruct
 
 > Note: Hermes requires a model with a reported context window of at
 > least 64K.
